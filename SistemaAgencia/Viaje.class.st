@@ -6,7 +6,7 @@ Class {
 		'costoPorPersona',
 		'valorImpuestos'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

@@ -8,7 +8,7 @@ Class {
 		'datosContacto',
 		'colContratos'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

@@ -6,7 +6,7 @@ Class {
 		'costoExcursion',
 		'cantPersonasExcursion'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

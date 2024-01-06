@@ -5,7 +5,7 @@ Class {
 		'monto',
 		'fechaDePago'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

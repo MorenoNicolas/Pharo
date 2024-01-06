@@ -13,7 +13,7 @@ Class {
 		'colExcursionesContratadas',
 		'estaPagado'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

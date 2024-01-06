@@ -6,7 +6,7 @@ Class {
 		'diccionatioReembolso',
 		'plusPagado'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

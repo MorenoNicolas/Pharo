@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'millas'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

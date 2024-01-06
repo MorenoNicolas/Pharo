@@ -7,7 +7,7 @@ Class {
 		'fechaRegreso',
 		'disponibilidad'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }

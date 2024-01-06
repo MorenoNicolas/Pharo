@@ -7,7 +7,7 @@ Class {
 		'colExcursiones',
 		'colFechas'
 	],
-	#category : #tpoFinal2023
+	#category : #SistemaAgencia
 }
 
 { #category : #constructor }
