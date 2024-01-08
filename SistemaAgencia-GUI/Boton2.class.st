@@ -8,9 +8,9 @@ Class {
 Boton2 >> iniciar: string [
 nombre:= string.
 self label: nombre.
-self extent:35@35.
+self extent:30@30.
 self color: Color red.
 self borderWidth: 1.
 self borderColor: Color gray.
-self roundedCorners: 10.
+self roundedCorners: 300.
 ]

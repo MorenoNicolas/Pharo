@@ -24,15 +24,16 @@ Interfaz >> comprobarNombre: nombreDato [
 
 { #category : #'as yet unclassified' }
 Interfaz >> iniciar [
-|boton fondo|
-self extent: 480@854.
+|boton|
+self extent: 480@654.
 self borderWidth: 2.
+self color: Color gray.
 self borderColor: Color black.
 self iniciarInterfaz.
 boton := Boton2 crear: 'X'.
 self addMorphFront: boton.
-boton position: 444@1.
-boton mouseAction: [ ventana close ].
+boton position: 449@1.
+boton mouseAction: [ self delete   ]
 ]
 
 { #category : #'as yet unclassified' }
