@@ -17,6 +17,22 @@ button iniciar: string .
 ]
 
 { #category : #'as yet unclassified' }
+BotonBase class >> crear: unSistema conDni: unDni conContrasena: unaContrasena [
+|button|
+button:= self new.
+button iniciar: unSistema conDni: unDni conContrasena: unaContrasena.
+^button.
+]
+
+{ #category : #constructor }
+BotonBase class >> crear: string x:x y:y [
+|button|
+button:= self new.
+button iniciar: string x:x  y:y  .
+^button.
+]
+
+{ #category : #'as yet unclassified' }
 BotonBase >> getNombre [
 ^nombre.
 ]
@@ -24,6 +40,13 @@ BotonBase >> getNombre [
 { #category : #'as yet unclassified' }
 BotonBase >> iniciar: unString [
 nombre:= unString .
+
+]
+
+{ #category : #'as yet unclassified' }
+BotonBase >> iniciar:unString x:x  y:y [
+nombre:= unString .
+self extent: x@y.
 
 ]
 
